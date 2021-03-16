@@ -28,8 +28,7 @@ String attemptPassword = JOptionPane.showInputDialog("What's the password?");
 	// 4. If their guess matches the password, show them the secret message
 if (attemptPassword.equals(password));{
 	JOptionPane.showMessageDialog(null, secretMessage);
-}
-else {
+} else {
 	// 5. If the password does not match, pop-up "INTRUDER!!"
 
 	JOptionPane.showMessageDialog(null, "INTRUDER!");
