@@ -10,8 +10,8 @@ public static void main(String[] args) {
 	// Change one line of code to fix this program.
 	
 	String name = JOptionPane.showInputDialog("What is your name?");
-	
-	if (name == "Bob") {
+	String bob = "Bob";
+	if (name.equals (bob)) {
 		JOptionPane.showMessageDialog(null, "Hello Bob");
 	} else {
 		JOptionPane.showMessageDialog(null, "You're not Bob!!!");
