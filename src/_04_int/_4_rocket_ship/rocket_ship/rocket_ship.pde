@@ -17,7 +17,7 @@ void draw() {
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
     if(mousePressed){
-      y-= 1;
+      y-= 10;
       
     }
 

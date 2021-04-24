@@ -5,11 +5,11 @@ import javax.swing.JOptionPane;
 public class unbirthday {
 public static void main(String args[]) {
 	String birthdate = JOptionPane.showInputDialog("When is your birthday?");
-	if (birthdate.equals("March 10")) {
-		JOptionPane.showMessageDialog(null, "Happy Birthday");
+	if (birthdate.equals("April 24")) {
+		JOptionPane.showMessageDialog(null, "Happy Birthday!");
 	}
 	else {
-		JOptionPane.showMessageDialog(null, "Happy Unbirthday");
+		JOptionPane.showMessageDialog(null, "Happy Unbirthday!");
 	}
 }
 }
